@@ -39,7 +39,7 @@ function App() {
           <Link to="/" className="text-white font-medium px-2">Home</Link>
           {user ? (
             <>
-              <span className="text-white font-medium px-2">{user}</span>
+              <span className="text-white font-medium px-2">{user.name}</span>
               <button
                 onClick={handleLogout}
                 className="text-white bg-blue-500 hover:bg-blue-600 transition-all duration-200 px-4 py-2 rounded-lg font-bold shadow-md ml-2"
